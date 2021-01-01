@@ -23,4 +23,5 @@ The code structre is based upon very popular [Clean Architecture](https://blog.c
 - Use `go run cmd/api/main.go`
 
 **Note:** Make sure that all the above dependencies are installed and running.
+
 **Note:** Make sure create the `.env` file in the project root and popluate it with the environment variables. The sample file is present in `env`.
