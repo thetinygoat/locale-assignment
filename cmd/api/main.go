@@ -14,7 +14,7 @@ import (
 	_rideHandler "github.com/thetinygoat/localeai/pkg/ride/handler/http"
 	_rideRepo "github.com/thetinygoat/localeai/pkg/ride/repository/postgres"
 	_rideService "github.com/thetinygoat/localeai/pkg/ride/service"
-	"github.com/thetinygoat/localeai/pkg/worker"
+	"github.com/thetinygoat/localeai/pkg/ride/worker"
 )
 
 func main() {

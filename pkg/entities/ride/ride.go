@@ -1,18 +1,8 @@
 package ride
 
 import (
-	"time"
-
 	"github.com/google/uuid"
 )
-
-// FailedJob holds failed job data
-type FailedJob struct {
-	JobID     uuid.UUID `json:"job_id"`
-	Payload   string    `json:"payload"`
-	CreatedAt time.Time `json:"created_at"`
-	UpdatedAt time.Time `json:"updated_at"`
-}
 
 // Ride holds ride data
 type Ride struct {
