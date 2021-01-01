@@ -23,6 +23,7 @@ func (s Service) Dump(data string) {
 	json.Unmarshal([]byte(data), &ride)
 	err := s.repo.CreateRide(&ride)
 	if err != nil {
+		// todo handle failed jobs
 		log.Fatal(err)
 	}
 }
